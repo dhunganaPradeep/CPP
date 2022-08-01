@@ -8,7 +8,9 @@ class Arithmetic
     int num;
 
 public:
-Arithmetic(){};
+Arithmetic(){
+    num=0;
+};
     void read()
     {
         cout << "Enter the number " << endl;
